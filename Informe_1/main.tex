@@ -1,0 +1,61 @@
+\documentclass[11pt]{report} % Clase de documento para un informe
+% Documento y codificación general
+\usepackage[utf8]{inputenc} % Tildes, "ñ" y símbolos especiales.
+% Idioma y traducción
+\usepackage[spanish,es-tabla]{babel} % Traduce el documento al español.
+\usepackage[a4paper,left=3cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry} % Permite cambiar el tamaño de la página.
+% Imágenes y figuras
+\usepackage{graphicx} % Permite incluir imágenes.
+\usepackage{subcaption} % Permite agregar subfiguras dentro de una figura principal, cada una con su leyenda.
+\usepackage{float} % Permite fijar la posición de las figuras y tablas [H].
+% Matemáticas y símbolos
+\usepackage{amsmath} % Permite usar entornos matemáticos avanzados.
+\usepackage{amssymb} % Permite usar símbolos matemáticos adicionales.
+\usepackage{mathtools} % Permite usar herramientas matemáticas avanzadas.
+% Hipervinculos y referencias
+\usepackage[hidelinks]{hyperref} % Permite crear hipervínculos transparentes dentro del documento.
+\usepackage[table,xcdraw]{xcolor} % Permite usar colores textos y tablas.
+\usepackage{setspace} % Permite ajustar el interlineado.
+
+
+\begin{document}
+    \begin{spacing}{1.5}
+        \begin{flushleft}
+            
+                \begin{center}
+                    \Large
+                    \textbf{FORMULARIO DE AVANCE MENSUAL DE\\
+                    PROYECTO INTEGRADOR}
+                \end{center}
+                \vspace{2em}
+                
+                FECHA: 03/11/2025
+
+                ALUMNO: Tardón, Damián David
+
+                TEMA: Diseño, desarrollo e implementación de un software para la adquisición y análisis de ondas de impulso tipo rayo (1,2/50 \(\mu\)s).
+                
+                DIRECTOR: Blasco, Marcos
+
+                CO-DIRECTOR: Serra, Gabriel Horacio.
+
+                FECHA ESTIMADA DE FINALIZACIÓN: Marzo 2026.
+                
+                \hrulefill
+                
+                INFORME:
+            
+        \end{flushleft}
+    \end{spacing}
+
+    Se estudió las normas para el desarrollo del trabajo, se determinó la adquisición de las normas IEC 60060-1 e IEC 61083-2, y el LAT efectuó su compra. Luego, se instaló y probó el software Test Data Generator incluido con la norma IEC 61083-2, que provee herramientas para la generación de datos de prueba, que se utilizarán más adelante para validar la etapa de procesamiento de datos.
+
+    Se realizó un análisis de los osciloscopios disponibles para este proyecto, con el fin de determinar cual resulta más adecuado considerando sus características técnicas: ancho de banda, tasa de muestreo y tensión máxima de entrada. Así como también la información complementaria suministrada por el fabricante, como los manuales de usuario, manuales de programación del instrumento, controladores USB y controladores para LabVIEW.
+
+    Se determinó desarrollar el control del osciloscopio en el lenguaje de programación Python, utilizando la librería PyVISA, debido al elevado costo de la licencia de LabVIEW y considerando que, para los fines de este proyecto, las herramientas de Python permiten realizar las mismas tareas sin costo.
+
+    Se desarrolló el módulo de control del osciloscopio. Actualmente, se dispone de un script que permite configurar el instrumento, adquirir la señal registrada, almacenarla y graficarla temporalmente en la computadora.
+
+    Las actividades descriptas en este informe se corresponden con las tareas 1, 2 y 3 del diagrama de Gantt propuesto en la SAT.
+
+\end{document}
