@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1764535523.78636 "/home/demian/Respositorio LATEX/Repositorio_Informe_Mensual/Informe_2/main.tex" "main.pdf" "main" 1764535524.64193 0
+["pdflatex"] 1772497267.70684 "/home/demian/Respositorio LATEX/Repositorio_Informe_Mensual/Informe_2/main.tex" "main.pdf" "main" 1772497268.21345 0
   "/etc/texmf/web2c/texmf.cnf" 1741749396.90862 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/demian/Respositorio LATEX/Repositorio_Informe_Mensual/Informe_2/main.tex" 1764535523.46614 3151 212f1e09858bef5ad73ffbf0f0879edb ""
+  "/home/demian/Respositorio LATEX/Repositorio_Informe_Mensual/Informe_2/main.tex" 1772497267.50218 2836 6c25dd75b4e8454853da76d3c00a14e6 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -99,9 +99,9 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1741749415.49842 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1741749500 8213420 64b09b331d1af95c5a7f6267e9acb4f8 ""
-  "main.aux" 1764535524.56474 324 15225c1e4c578f29089c1849f8b2e87e "pdflatex"
-  "main.out" 1764535524.4338 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1764535523.46614 3151 212f1e09858bef5ad73ffbf0f0879edb ""
+  "main.aux" 1772497268.16829 324 15225c1e4c578f29089c1849f8b2e87e "pdflatex"
+  "main.out" 1772497268.09654 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1772497267.50218 2836 6c25dd75b4e8454853da76d3c00a14e6 ""
   (generated)
   "main.aux"
   "main.log"
